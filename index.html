@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lords of the Web</title>
+        <title> Romain Parizot</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css"/>
+        <script src="https://kit.fontawesome.com/038b53768e.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
+          <style>
+            body {
+              font-family: 'Black Han Sans';font-size: 15px; color: white; text-shadow: 1px 1px 2px black;
+              }
+          </style>
     </head>
 <body>
     <script>
@@ -19,21 +26,35 @@
    <header> 
        <div class="topnav" id="myTopnav">
         <a href="https://ropzt.github.io/" class="active">Home</a>
-        <a href="https://ropzt.github.io/news">News</a>
-        <a href="https://ropzt.github.io/contact">Contact</a>
+        <a href="https://ropzt.github.io/contact">Contact/About</a>
         <div class="dropdown">
-          <button class="dropbtn">Hearthstone Analysis
+          <button class="dropbtn">Data Science Projects
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Classes</a>
-            <a href="#">Metas</a>
-            <a href="#">Races</a>
+            <a href="https://ropzt.shinyapps.io/hs_analytics/?_ga=2.267131278.1633010489.1595692703-698340457.1595253721">Hearthstone's EDA</a>
+            <a href="https://ropzt.github.io/">Hearthstone's Deck Creation Model (Soon)</a>
+            <a href="https://ropzt.github.io/">Hearthstone's Games Machine Learning (Soon)</a>
           </div>
         </div>
-        <a href="#about">About</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
     </header>
+
+
+<section id="welcome">
+  <p>Hi ! Welcome to my Home page. My name's Romain Parizot, I'm a Junior Data Scientist living in Paris, France. </p>
+  <p>Here you can find the abstracts and links to my data science projects hosted on GitHub or Shinyapps.</p>
+  <p>You can also visit the About section to learn more about me or access directly to my projects, which are hosted on my <a href="https://github.com/Ropzt" target="_blank">GitHub</a>.</p>
+  <p>Have fun and stay tuned for more projects !</p>
+</section>
+
+<section id="abstract">
+  <h2 style="color: #73AD21;">EDA of Blizzard's Hearthstone<a href="https://ropzt.shinyapps.io/hs_analytics/?_ga=2.267131278.1633010489.1595692703-698340457.1595253721" target="_blank"><i class="fas fa-external-link-alt" style="margin-left: 5px;"></i></a></h2>
+  <p>This project is my first and also the first of a series of analysies of Blizzard's Hearthstone.</p>
+  <p>My goal was to understand what are the possible ratios of most of the aspect of Hearthstone, one of the most recent though popular of all online collectible card games.</p>
+  <p>The Project involved : Web Scrapping, API calling, Automation, Transformation, Cleaning, Selection, Visualization, Analysis, Rmarkdown & Shiny.</p>
+</section>
+
 </body>
 </html>
