@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Product example for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"><\/script>')</script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
+  </head>
+
+  <body>
+
+    <nav class="site-header sticky-top py-1 nav-pills nav-fill">
+    
+
+      <div class="container d-flex flex-wrap flex-md-row justify-content-evenly">
+        <ol  class="container d-flex flex-wrap flex-md-row justify-content-evenly">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"><a class="py-2 d-md-inline-flex">Hello!</a></li>
+            <li data-target="#myCarousel" data-slide-to="1"><a class="py-2 d-md-inline-flex" >Resume</a></li>
+            <li data-target="#myCarousel" data-slide-to="2"><a class="py-2 d-md-inline-flex" >Skills</a></li>
+            <li data-target="#myCarousel" data-slide-to="3"><a class="py-2 d-md-inline-flex" >Contact</a></li>
+        </ol>
+      </div>
+    </nav>
+    
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                
+                
+                <!-- Page Hello : 1 Text de présentation + Status(looking for...)-->
+              <div class="carousel-item active">
+                <div class="cubes">
+                    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                          <div class="my-3 py-3">
+
+                            <h2 class="display-5">Bienvenue!</h2>
+
+                            <div class="row-6 row-md d-flex">
+
+                                <div class="col-lg-2">
+                                    <img class="rounded-circle" src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" alt="Generic placeholder image" width="140" height="140">
+                                </div>
+                                
+                                <div>
+                                    <p class="lead">My name is Romain, I'm 25 and I'm a French student in Computer Science, currently living in Paris.</p>
+                                    <p class="lead">I'm a creative, passionate and addicted to learning person, and I really love what I'm doing today.</p>
+                                    <p class="lead">I was a competitive intelligence student before making a 90° shift in my life in order to express my creation will.</p>
+                                    <p class="lead">I live to create incredible games and augmented reality experiences, with a sort of fetish for Lowpoly & Toon Shading.</p>
+                                </div>
+                                
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                          <div class="my-3 py-3">
+                            <p class="lead">Right now, I'm finishing my 5th year of study, through an apprenticeship.</p>
+                            <p class="lead">Until Septmber 2021, I'm working as a Junior International IT Project Manager @ Stellantis (Ex-Fiat Chrysler & PSA Group).</p>
+                            <p class="lead">I want to continue with another year of studies in order to specialize myself in Game Development, Human-Computer Interactions or Software Engineering.</p>
+                            <p class="lead">I'm open to opportunities, would it be full-time job, apprenticeship or internship (by early 2022).</p>
+                            <p class="lead">Feel free to look at the rest of this little website, look at my projects or get in touch with me.</p>
+                            <p class="lead">Have a nice day, and a nice lockdown !</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+              <!-- Page Resume : 4 item (Experience, Education, Self Taught, Projects)-->
+              <div class="carousel-item">
+                <div>
+                    <!-- First Row : Experience & Education -->
+                    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
+                        <!-- First item, on the Left : Experience -->
+                        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-white overflow-hidden">
+                          <div class="my-3 py-3">
+                            <h2 class="display-5 text-center" style="margin-bottom: 1rem;">Experience</h2>
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Sept 2020 -</p>
+                                    <p class="lead">Sept 2021</p>
+                                </div>
+                                <div style = " text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">International IT Project Manager, Apprenticeship</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Paris,FR</p>
+                                    <p class="lead">@PSA Group (Stellantis)</p>
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <!-- Second item, on the Right : Education -->
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                          <div class="my-3 p-3">
+                            <h2 class="display-5" style="margin-bottom: 1rem;">Education</h2>
+
+
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3 mr-auto" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Sept 2020 -</p>
+                                    <p class="lead">Sept 2021</p>
+                                </div>
+                                <div class="ml-auto" style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Computer Science & IT Project Management</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Master's Degree, 2nd Year</p>
+                                    <p class="lead">@University Paris 1 - Panthéon Sorbonne, Paris,FR</p>
+                                </div>
+                            </div>
+
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3 mr-auto" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Sept 2018 -</p>
+                                    <p class="lead">Sept 2019</p>
+                                </div>
+                                <div class="ml-auto" style = "float: right;   text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Competitive Intelligence & International Strategy</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Master's Degree, 1st Year</p>
+                                    <p class="lead">@University of Angers, Angers,FR</p>
+                                </div>
+                            </div>
+
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3 mr-auto" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Sept 2015 -</p>
+                                    <p class="lead">Sept 2017</p>
+                                </div>
+                                <div class="ml-auto align-self-md-end" style = "float: right;   text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Economics & Management</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Degree, 2nd & 3rd Year</p>
+                                    <p class="lead">@University of Nice, Nice,FR</p>
+                                </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Second Row : Self-Taught & Projects -->
+                      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
+                        <!-- Third item, on the Left : Selft-Taught -->
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                          <div class="my-3 py-3">
+                            <h2 class="display-5 text-center" style="margin-bottom: 1rem;">Self-Taught</h2>
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Sept 2019 -</p>
+                                    <p class="lead">Today</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Data Analysis with R</p>
+                                </div>
+                            </div>
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Jan 2021 -</p>
+                                    <p class="lead">Today</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Game Development & Augmented Reality with Unity, Google's ARCore & C#</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Fourth item, on the Right : Projects -->
+                        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                          <div class="my-3 p-3">
+                            <h2 class="display-5 text-center" style="margin-bottom: 1rem;">Projects</h2>
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <h3 style = "float: left; text-align: left;"><u>Done</u></h3>
+                            </div>
+                            
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Jul 2020</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><a href="https://ropzt.shinyapps.io/hs_analytics/?_ga=2.267131278.1633010489.1595692703-698340457.1595253721" target="_blank" style="color:white;">Data Analysis of the Balance of the Trading Card Game <i>Hearthstone</i></a></p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>using R (Rvest, GGplot2, Plotly, Shiny) </i></p>
+                                </div>
+                            </div>
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Jan 2021</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><a href="https://github.com/Ropzt/reservation" target="_blank" style="color:white;">University Project : Train Management Software</a></p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>written in C</i></p>
+                                </div>
+                            </div>
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Mar 2021</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">University Project : <i>Game of Thrones</i> Relational DataBase</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>using Oracle SQL Developer for SQL & PL/SQL</i></p>
+                                </div>
+                            </div>
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Apr 2021</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">This beautiful website</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>using HTML5, CSS & Bootstrap</i></p>
+                                </div>
+                            </div>
+
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <h3 style = "float: left; text-align: left;"><u>Incoming</u></h3>
+                            </div>
+
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;" >
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Jun 2021</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">University Project : Hand-Gesture Recognition (ANN Computer Vision)</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>using Python (Pandas, Numpy, Scikit, OpenCV, Keras, TensorFlow)</i></p>
+                                </div>
+                            </div>
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Jul 2021</p>
+                                </div>
+                                <div style = "float: right;  text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Augmented Reality Tabletop Game for Android Mobile</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>using Unity, Google's ARCore and written in C#</i></p>
+                                </div>
+                            </div>
+                            <div class="row-6 row-md d-flex" style="margin-bottom: 1rem;">
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">Sept 2021</p>
+                                </div>
+                                <div style = "float: right; text-align: left;">
+                                    <p class="lead" style="margin-bottom: 0.2rem;">University Project : Android Application</p>
+                                    <p class="lead" style="margin-bottom: 0.2rem;"><i>written in Java</i></p>
+                                </div>
+                            </div>
+
+                          </div>
+                        </div>
+                     </div>
+                </div>
+              </div>
+              
+              <!-- Page Skills : 4 item (GameDev, DataScience, Software/Application, WebDev)-->
+              <div class="carousel-item">
+                <div>
+                    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                          <div class="my-3 py-3">
+                            <h2 class="display-5">Game Dev</h2>
+                            <p class="lead">Self-Taught, Beginer Level : Unity, C# & AR Plugins</p>
+                            <p class="lead">Projects : Waiting for Delivery ...</p>
+                          </div>
+                        </div>
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                          <div class="my-3 p-3">
+                            <h2 class="display-5">Software/Application</h2>
+                            <p class="lead">Graduate Level : C/Java</p>
+                            <p class="lead">Self-Taught, Beginer Level : C#</p>
+                            <p class="lead">Projects : <a href="https://github.com/Ropzt/reservation" target="_blank" style="color:black;">Train Management Software in C</a></p>
+                            <p class="lead">Projects : Android Application in Java</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                          <div class="my-3 py-3">
+                            <h2 class="display-5">Data Science</h2>
+                            <p class="lead">Graduate Level : Python/SQL</p>
+                            <p class="lead">Self-Taught Basic Level : R</p>
+                            <p class="lead">Projects : <a href="https://ropzt.shinyapps.io/hs_analytics/?_ga=2.267131278.1633010489.1595692703-698340457.1595253721" target="_blank" style="color:black;">Data Analysis with R</a></p>
+                            <p class="lead">Projects : Hand-Gesture Recognition with Python</p>
+                          </div>
+                        </div>
+                        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                          <div class="my-3 p-3">
+                            <h2 class="display-5">Web Dev</h2>
+                            <p class="lead">Graduate Level : PHP/SQL (XAMPP)</p>
+                            <p class="lead">Self-Taught Beginer Level : HTML/CSS</p>
+                            <p class="lead">Projects : This webiste in HTML/CSS</p>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="carousel-caption text-right">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Page Contact : 1 item (Linkedin, Github, Mail, CV)-->
+              <div class="carousel-item">
+                <div >
+                    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                          <div class="my-3 p-3">
+                            <h2 class="display-5">Find me on</h2>
+                          </div>
+                          <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                            <div class="row-6 row-md d-flex" >
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <img class="rounded-circle" src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" alt="Generic placeholder image" width="140" height="140">
+                                </div>
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <img class="rounded-circle" src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" alt="Generic placeholder image" width="140" height="140">
+                                </div>
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <img class="rounded-circle" src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" alt="Generic placeholder image" width="140" height="140">
+                                </div>
+                                <div class="col-lg-3" style = "float: left; text-align: left;">
+                                    <img class="rounded-circle" src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/04/eso1644bsmall__w770.jpg" alt="Generic placeholder image" width="140" height="140">
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    <footer>
+        <div class="row">
+            <div class="row-6 row-md">
+                <h5 style="float : right; padding-right: 5rem;"><i>Pour Frodon</i></h5>
+            </div>
+        </div> 
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+-->
+
+    <script>
+        $('.carousel').on('slide.bs.carousel', function (e) {
+            var indicator = $('[data-target="#'+this.id+'"]');
+            var index = $(e.relatedTarget).index();
+            indicator.removeClass('active');
+            indicator.filter('[data-slide-to="'+ index +'"]').addClass('active');
+        })  
+    </script>
+  </body>
+</html>
