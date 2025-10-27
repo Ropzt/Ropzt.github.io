@@ -6,7 +6,7 @@
     <title>Unity Web Player | Website</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" tabindex="-1" style="width: auto; height: auto; background: #231F20"></canvas>
     <script src="Build/WebsiteBuild_Test1.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -34,7 +34,7 @@
         companyName: "Rizot",
         productName: "Website",
         productVersion: "0.5.0",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.  width=1920 height=1080
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       }).then((unityInstance) => {
       }).catch((message) => {
