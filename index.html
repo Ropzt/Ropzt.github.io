@@ -9,7 +9,8 @@
     <canvas id="unity-canvas" tabindex="-1" style="width: auto; height: auto; background: #231F20"></canvas>
     <script src="Build/WebsiteBuild_Test1.loader.js"></script>
     <script>
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        
+      //if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
         var meta = document.createElement('meta');
         meta.name = 'viewport';
@@ -23,7 +24,7 @@
 
         document.body.style.textAlign = "left";
 
-      }
+      //}
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
